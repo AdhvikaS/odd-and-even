@@ -8,6 +8,6 @@ def gem(number):
             even.append(n**2)
         elif n%2!=0:
             odd.append(n)
-    return even+odd
+return even+odd
 number=[34,7,5,72,82]
 print(gem(number))
